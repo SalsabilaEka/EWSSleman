@@ -6,6 +6,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-native-fontawesome';
 import { faHouse, faFileCirclePlus, faFolderOpen, faMapLocationDot, faTriangleExclamation } from '@fortawesome/free-solid-svg-icons';
 import Beranda from './Home';
 import Peta from './Map';
+import Laporan from './TambahData';
 
 
 function HomeScreen() {
@@ -21,9 +22,7 @@ function MapScreen() {
 }
 function LaporanScreen() {
     return (
-        <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-            <Text>Settings!</Text>
-        </View>
+        <Laporan />
     );
 }
 
